@@ -178,6 +178,7 @@ git clone https://github.com/jvergarav3/AlgoritmosDAM.git
 ```
 
 ```bash
+cd AlgoritmosDAM
 cd dam_algorithms
 ```
 
