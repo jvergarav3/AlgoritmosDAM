@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.operative_systems.presentation.controller.page.DashboardController"
+            styleClass="root">
+
+    <!-- ======================
+         SIDEBAR
+         ====================== -->
+    <left>
+        <fx:include source="../component/Sidebar.fxml"/>
+    </left>
+
+    <!-- ======================
+         CONTENIDO PRINCIPAL
+         ====================== -->
+    <center>
+
+        <VBox spacing="20"
+              styleClass="content-container">
+
+            <!-- HEADER -->
+            <VBox spacing="5">
+
+                <Label text="Dashboard"
+                       styleClass="page-title"/>
+
+                <Label text="Resumen general del sistema"
+                       styleClass="page-subtitle"/>
+
+            </VBox>
+
+            <!-- CONFIGURACIÓN -->
+            <fx:include fx:id="configurationPanel"
+                        source="../component/ConfigurationPanel.fxml"/>
+
+            <!-- TABLA + RESUMEN -->
+            <HBox spacing="20">
+
+                <fx:include fx:id="simulationTable"
+                            source="../component/SimulationTable.fxml"
+                            HBox.hgrow="ALWAYS"/>
+
+                <fx:include fx:id="summaryPanel"
+                            source="../component/SummaryPanel.fxml"
+                            HBox.hgrow="ALWAYS"/>
+
+            </HBox>
+
+        </VBox>
+
+    </center>
+
+</BorderPane>

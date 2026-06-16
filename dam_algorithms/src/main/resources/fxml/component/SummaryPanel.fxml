@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.chart.PieChart?>
+
+<VBox xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml"
+      spacing="12"
+      styleClass="card"
+      prefWidth="250"
+      fx:controller="com.operative_systems.presentation.controller.component.SummaryController">
+
+    <!-- TÍTULO -->
+    <Label text="Resumen"
+           styleClass="section-title"/>
+
+    <!-- GRID 2x2 -->
+    <GridPane hgap="10" vgap="10">
+
+        <columnConstraints>
+            <ColumnConstraints percentWidth="50"/>
+            <ColumnConstraints percentWidth="50"/>
+        </columnConstraints>
+
+        <rowConstraints>
+            <RowConstraints percentHeight="50"/>
+            <RowConstraints percentHeight="50"/>
+        </rowConstraints>
+
+        <!-- CARD 1 -->
+        <VBox styleClass="mini-card"
+              GridPane.rowIndex="0"
+              GridPane.columnIndex="0">
+
+            <Label text="Fallos"/>
+            <Label fx:id="faultsLabel" text="0"/>
+
+        </VBox>
+
+        <!-- CARD 2 -->
+        <VBox styleClass="mini-card"
+              GridPane.rowIndex="0"
+              GridPane.columnIndex="1">
+
+            <Label text="Aciertos"/>
+            <Label fx:id="hitsLabel" text="0"/>
+
+        </VBox>
+
+        <!-- CARD 3 -->
+        <VBox styleClass="mini-card"
+              GridPane.rowIndex="1"
+              GridPane.columnIndex="0">
+
+            <Label text="Tasa Fallos"/>
+            <Label fx:id="faultRateLabel" text="0%"/>
+
+        </VBox>
+
+        <!-- CARD 4 -->
+        <VBox styleClass="mini-card"
+              GridPane.rowIndex="1"
+              GridPane.columnIndex="1">
+
+            <Label text="Tasa Aciertos"/>
+            <Label fx:id="hitRateLabel" text="0%"/>
+
+        </VBox>
+
+    </GridPane>
+
+    <!-- ===================== -->
+    <!-- PIE CHART -->
+    <!-- ===================== -->
+    <VBox spacing="10">
+
+        <Label text="Distribución de resultados"
+               styleClass="section-title"/>
+
+        <PieChart fx:id="resultPieChart"
+                  prefHeight="200"
+                  labelsVisible="true"/>
+
+    </VBox>
+
+</VBox>

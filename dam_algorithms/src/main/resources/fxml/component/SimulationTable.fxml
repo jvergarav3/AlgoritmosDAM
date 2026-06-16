@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.operative_systems.presentation.controller.component.SimulationTableController">
+
+    <TableView fx:id="tableView"
+               styleClass="card"
+               VBox.vgrow="ALWAYS">
+
+        <columns>
+
+            <TableColumn fx:id="stepColumn"
+                         text="Paso"
+                         prefWidth="80"/>
+
+            <TableColumn fx:id="referenceColumn"
+                         text="Referencia"
+                         prefWidth="120"/>
+
+            <TableColumn fx:id="framesColumn"
+                         text="Marcos"
+                         prefWidth="200"/>
+
+            <TableColumn fx:id="faultColumn"
+                         text="Fallo"
+                         prefWidth="80"/>
+
+            <TableColumn fx:id="actionColumn"
+                         text="Acción"
+                         prefWidth="180"/>
+
+        </columns>
+
+    </TableView>
+
+</VBox>

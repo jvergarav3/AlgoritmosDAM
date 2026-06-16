@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml"
+      spacing="8">
+
+    <children>
+
+        <Label text="Simulación de Reemplazo de Páginas"
+               styleClass="page-title"/>
+
+        <Label text="Analiza el comportamiento de FIFO, LRU, OPT y Clock"
+               styleClass="page-subtitle"/>
+
+    </children>
+
+</VBox>

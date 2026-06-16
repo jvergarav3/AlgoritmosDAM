@@ -1,8 +1,15 @@
 /home/joan-sebastian-vergara/Desktop/AlgoritmosDAM/dam_algorithms/src/main/java/com/operative_systems/App.java
 /home/joan-sebastian-vergara/Desktop/AlgoritmosDAM/dam_algorithms/src/main/java/com/operative_systems/application/SimulationService.java
+/home/joan-sebastian-vergara/Desktop/AlgoritmosDAM/dam_algorithms/src/main/java/com/operative_systems/domain/algorithm/FIFOAlgorithm.java
+/home/joan-sebastian-vergara/Desktop/AlgoritmosDAM/dam_algorithms/src/main/java/com/operative_systems/domain/algorithm/LRUAlgorithm.java
+/home/joan-sebastian-vergara/Desktop/AlgoritmosDAM/dam_algorithms/src/main/java/com/operative_systems/domain/algorithm/OPTAlgorithm.java
 /home/joan-sebastian-vergara/Desktop/AlgoritmosDAM/dam_algorithms/src/main/java/com/operative_systems/domain/algorithm/PageReplacementAlgorithm.java
 /home/joan-sebastian-vergara/Desktop/AlgoritmosDAM/dam_algorithms/src/main/java/com/operative_systems/domain/enums/AlgorithmType.java
 /home/joan-sebastian-vergara/Desktop/AlgoritmosDAM/dam_algorithms/src/main/java/com/operative_systems/domain/model/AlgorithmSummary.java
 /home/joan-sebastian-vergara/Desktop/AlgoritmosDAM/dam_algorithms/src/main/java/com/operative_systems/domain/model/SimulationRequest.java
 /home/joan-sebastian-vergara/Desktop/AlgoritmosDAM/dam_algorithms/src/main/java/com/operative_systems/domain/model/SimulationResult.java
 /home/joan-sebastian-vergara/Desktop/AlgoritmosDAM/dam_algorithms/src/main/java/com/operative_systems/domain/model/SimulationStep.java
+/home/joan-sebastian-vergara/Desktop/AlgoritmosDAM/dam_algorithms/src/main/java/com/operative_systems/presentation/controller/component/ConfigurationController.java
+/home/joan-sebastian-vergara/Desktop/AlgoritmosDAM/dam_algorithms/src/main/java/com/operative_systems/presentation/controller/component/SimulationTableController.java
+/home/joan-sebastian-vergara/Desktop/AlgoritmosDAM/dam_algorithms/src/main/java/com/operative_systems/presentation/controller/component/SummaryController.java
+/home/joan-sebastian-vergara/Desktop/AlgoritmosDAM/dam_algorithms/src/main/java/com/operative_systems/presentation/controller/page/DashboardController.java

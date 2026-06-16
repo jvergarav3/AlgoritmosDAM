@@ -1,0 +1,16 @@
+com/operative_systems/application/SimulationService.class
+com/operative_systems/domain/model/SimulationResult.class
+com/operative_systems/domain/algorithm/FIFOAlgorithm.class
+com/operative_systems/presentation/controller/component/SummaryController.class
+com/operative_systems/domain/algorithm/LRUAlgorithm.class
+com/operative_systems/presentation/controller/page/DashboardController.class
+com/operative_systems/domain/model/SimulationRequest.class
+com/operative_systems/presentation/controller/component/SimulationTableController.class
+com/operative_systems/domain/enums/AlgorithmType.class
+com/operative_systems/presentation/controller/component/ConfigurationController.class
+com/operative_systems/domain/model/SimulationStep.class
+com/operative_systems/presentation/controller/component/SimulationTableController$1.class
+com/operative_systems/domain/algorithm/OPTAlgorithm.class
+com/operative_systems/domain/algorithm/PageReplacementAlgorithm.class
+com/operative_systems/App.class
+com/operative_systems/domain/model/AlgorithmSummary.class
